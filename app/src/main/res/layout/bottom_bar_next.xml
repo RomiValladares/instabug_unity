@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/action_bar_height"
+    android:background="@android:color/transparent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+    <ImageView
+        android:id="@+id/btn_bottom_bar_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|center_vertical"
+        android:minHeight="@dimen/btn_back_toolbar_height"
+        android:minWidth="@dimen/btn_back_toolbar_width"
+        android:src="@drawable/left_white_arrow"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <com.duelit.utils.views.FontTextView
+        android:id="@+id/btn_bottom_bar_back_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="@string/back"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="@dimen/btn_back_toolbar_margin_right"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/btn_bottom_bar_back"
+        android:layout_toEndOf="@+id/btn_bottom_bar_back" />
+
+    <com.duelit.utils.views.FontTextView
+        android:id="@+id/btn_bottom_bar_next_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|right"
+        android:text="@string/next"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginRight="@dimen/btn_back_toolbar_margin_right"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/btn_bottom_bar_next"
+        android:layout_toStartOf="@+id/btn_bottom_bar_next" />
+
+    <ImageView
+        android:id="@+id/btn_bottom_bar_next"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|right"
+        android:minHeight="@dimen/btn_back_toolbar_height"
+        android:minWidth="@dimen/btn_back_toolbar_width"
+        android:src="@drawable/right_arrow_active"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

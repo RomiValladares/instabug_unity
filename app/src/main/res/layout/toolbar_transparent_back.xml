@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/action_bar_height"
+    android:background="@android:color/transparent"
+    android:elevation="0dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+    <ImageView
+        android:id="@+id/btn_toolbar_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginRight="@dimen/btn_back_toolbar_margin_right"
+        android:minHeight="@dimen/btn_back_toolbar_height"
+        android:minWidth="@dimen/btn_back_toolbar_width"
+        android:src="@drawable/left_white_arrow"/>
+
+
+</android.support.v7.widget.Toolbar>

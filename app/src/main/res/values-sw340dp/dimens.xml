@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tournament_list_item_txt_size_1">14sp</dimen>
+    <dimen name="tournament_list_item_txt_size_2">12sp</dimen>
+
+    <dimen name="tournament_carousel_card_coin_size">80dp</dimen>
+    <dimen name="tournament_carousel_card_text_size_5">18sp</dimen>
+
+    <dimen name="tournament_carousel_card_prize_text_size">28sp</dimen>
+
+    <dimen name="public_tournament_card_info_margin">16dp</dimen>
+    <dimen name="activity_public_tournament_selected_filter_layout_height">200dp</dimen>
+    <dimen name="public_tournament_game_logo_width">110dp</dimen>
+    <dimen name="custom_bottom_bar_tab_text_size">11sp</dimen>
+
+    <dimen name="open_tournament_selected_filter_layout_height">300dp</dimen>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorTransparentBlue" />
+
+            <corners
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp"
+                android:topLeftRadius="@dimen/open_tournament_item_radius"
+                android:topRightRadius="@dimen/open_tournament_item_radius" />
+        </shape>
+
+    </item>
+</layer-list>

@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "661838287813",
+    "firebase_url": "https://duelit-production-eedca.firebaseio.com",
+    "project_id": "duelit-production-eedca",
+    "storage_bucket": "duelit-production-eedca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661838287813:android:8098bde5577adebe",
+        "android_client_info": {
+          "package_name": "com.duelit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661838287813-s9mhpt4bn6j5vh5d9ogh799u4cc7j2as.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd4OSSXOAJgTQP2rPxs03sLow1tsp3-Z8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661838287813:android:8fd6195085dfa516",
+        "android_client_info": {
+          "package_name": "rokk3rlabs.playandearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661838287813-s9mhpt4bn6j5vh5d9ogh799u4cc7j2as.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd4OSSXOAJgTQP2rPxs03sLow1tsp3-Z8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

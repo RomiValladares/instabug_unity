@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/choose_user_age_fragment_container">
+
+    <RelativeLayout
+        android:id="@+id/choose_user_age_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.duelit.utils.views.FontTextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:layout_centerHorizontal="true"
+            android:text="@string/how_old_are_you"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/txt_location_title_text" />
+
+        <com.duelit.utils.views.FontTextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="90dp"
+            android:layout_below="@+id/textView7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/txt_location_legend_margin_top"
+            android:gravity="center"
+            android:minWidth="@dimen/txt_location_legend_width"
+            android:paddingLeft="@dimen/activity_horizontal_margin_2"
+            android:paddingRight="@dimen/activity_horizontal_margin_2"
+            android:text="@string/verify_age_legend"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/txt_location_legend_text" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/fragment_choose_user_location_margin_top">
+
+            <EditText
+                android:id="@+id/select_user_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_default_top_small_2"
+                android:focusable="false"
+                android:hint="@string/select_birth_date"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:lines="1"
+                android:minHeight="@dimen/min_edittext_height"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:theme="@style/AutoCompleteSpinnerWhite" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/edittext_icon_padding_right"
+                android:minHeight="@dimen/min_dropdown_arrow_height"
+                android:minWidth="@dimen/min_dropdown_arrow_width"
+                android:src="@drawable/ic_arrow_drop_down_white_18dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="PROGRESS"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:theme="@style/WhiteProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

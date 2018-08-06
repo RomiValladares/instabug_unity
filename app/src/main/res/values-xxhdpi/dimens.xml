@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_bar_height">64dp</dimen>
+    <dimen name="custom_bottom_bar_viewpager_margin">54dp</dimen>
+    <dimen name="coupon_invited_to_tournament_vertical_margin">58dp</dimen>
+    <dimen name="tournament_carousel_card_text_size_3">14sp</dimen>
+    <dimen name="tournament_carousel_card_padding_bottom">8dp</dimen>
+    <dimen name="tournament_card_coin_margin_bottom">16dp</dimen>
+    <dimen name="tournament_carousel_card_padding_top">16dp</dimen>
+    <dimen name="tournaments_carousel_header_img_size">95dp</dimen>
+    <dimen name="circle_indicator_radius">6dp</dimen>
+    <dimen name="tutorial_first_app_launch_indicator_margin">130dp</dimen>
+    <dimen name="tutorial_first_app_launch_txt_margin">24dp</dimen>
+    <dimen name="tournament_carousel_card_coin_size">110dp</dimen>
+    <dimen name="game_logo_margin_top">100dp</dimen>
+    <dimen name="game_logo_height">210dp</dimen>
+    <dimen name="game_logo_width">335dp</dimen>
+</resources>

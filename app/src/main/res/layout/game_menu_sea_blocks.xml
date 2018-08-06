@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/game_menu_background_sea_blocks"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/img_game_menu_large"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/game_logo_height"
+            android:minWidth="@dimen/game_logo_width"
+            android:src="@drawable/game_menu_logo_sea_blocks"
+            app:layout_constraintBottom_toTopOf="@+id/guideline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_conversion_absoluteHeight="210dp"
+            tools:layout_conversion_absoluteWidth="335dp" />
+
+        <com.duelit.utils.views.FontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="UNITYTESTSCENES"
+            android:text="TEST SCENES"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline"
+            tools:layout_conversion_absoluteHeight="19dp"
+            tools:layout_conversion_absoluteWidth="88dp" />
+
+        <com.duelit.utils.views.FontButton
+
+            android:background="@drawable/button_green_filled"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="16dp"
+            android:id="@+id/btn_game_menu_challenge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:minHeight="@dimen/game_menu_button_height"
+            android:minWidth="@dimen/game_menu_button_width"
+            android:tag="GAMEMODE:CHALLENGE"
+            android:text="@string/challenge"
+            android:textAllCaps="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline"
+            tools:layout_conversion_absoluteHeight="44dp"
+            tools:layout_conversion_absoluteWidth="335dp" />
+
+        <com.duelit.utils.views.FontButton
+            android:id="@+id/btn_game_menu_tournament"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+
+            android:background="@drawable/button_green_filled"
+            android:textColor="@color/colorPrimary"
+            android:minHeight="@dimen/game_menu_button_height"
+            android:minWidth="@dimen/game_menu_button_width"
+            android:tag="GAMEMODE:TOURNAMENT"
+            android:text="@string/tournaments"
+            android:textAllCaps="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_game_menu_challenge"
+            tools:layout_conversion_absoluteHeight="44dp"
+            tools:layout_conversion_absoluteWidth="335dp" />
+
+        <com.duelit.utils.views.FontButton
+            android:id="@+id/btn_game_menu_practice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_white_filled"
+            android:textColor="@color/colorGamePenaltyPrimary"
+            android:minHeight="@dimen/game_menu_button_height"
+            android:minWidth="@dimen/game_menu_button_width"
+            android:tag="GAMEMODE:PRACTICE"
+            android:text="@string/practice"
+            android:textAllCaps="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_game_menu_tournament"
+            tools:layout_conversion_absoluteHeight="44dp"
+            tools:layout_conversion_absoluteWidth="335dp" />
+
+        <com.duelit.utils.views.FontButton
+            android:id="@+id/btn_game_menu_how_to_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:minHeight="@dimen/game_menu_button_height"
+            android:minWidth="@dimen/game_menu_button_width"
+            android:tag="HOW_TO_PLAY"
+            android:text="@string/how_to_play"
+            android:background="@drawable/button_white_filled"
+            android:textColor="@color/colorGamePenaltyPrimary"
+            android:textAllCaps="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_game_menu_practice"
+            tools:layout_conversion_absoluteHeight="44dp"
+            tools:layout_conversion_absoluteWidth="335dp" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <include
+            android:id="@+id/toolbar"
+            app:layout_constraintTop_toTopOf="parent"
+            layout="@layout/toolbar_game_menu"></include>
+    </android.support.constraint.ConstraintLayout>
+
+    <RelativeLayout
+        android:id="@+id/game_menu_tutorial_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></RelativeLayout>
+</FrameLayout>

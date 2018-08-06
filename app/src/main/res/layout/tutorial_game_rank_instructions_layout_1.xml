@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tutorial_game_fruit_smash_step_4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="@color/colorTransparentTutorial">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="-8dp"
+        android:layout_marginRight="-16dp"
+        android:layout_toLeftOf="@+id/img_tutorial_game_fruit_smash_step_4_arrow_2"
+        android:layout_toRightOf="@+id/img_tutorial_game_fruit_smash_step_4_arrow_1"
+        android:orientation="vertical">
+
+        <com.duelit.utils.views.FontTextView
+            android:id="@+id/txt_title_game_tutorial_fruit_smash_instructions_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rank"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/game_tutorial_instructions_txt_size" />
+
+        <com.duelit.utils.views.FontTextView
+            android:id="@+id/view14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="@string/game_tutorial_real_time_rank_instructions"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/game_tutorial_instructions_txt_size"
+            app:fontName="@string/nexa_font_light" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_tutorial_game_fruit_smash_step_4_arrow_1"
+        android:layout_width="35dp"
+        android:layout_height="280dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="40dp"
+        android:layout_toLeftOf="@+id/img_tutorial_game_fruit_smash_step_4"
+        android:layout_toStartOf="@+id/img_tutorial_game_fruit_smash_step_4"
+        android:src="@drawable/tutorial_game_fruit_smash_step_4_arrow_1" />
+
+
+    <LinearLayout
+        android:id="@+id/txt_game_tutorial_fruit_smash_instructions_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/img_tutorial_game_fruit_smash_step_4_arrow_2"
+        android:layout_alignLeft="@+id/linearLayout3"
+        android:layout_alignStart="@+id/linearLayout3"
+        android:layout_marginBottom="-20dp"
+        android:layout_marginRight="-16dp"
+        android:layout_toLeftOf="@+id/img_tutorial_game_fruit_smash_step_4_arrow_2"
+        android:orientation="vertical">
+
+        <com.duelit.utils.views.FontTextView
+            android:id="@+id/txt_title_2_game_tutorial_fruit_smash_instructions_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/your_rank"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/game_tutorial_instructions_txt_size" />
+
+
+        <com.duelit.utils.views.FontTextView
+            android:id="@+id/view8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="@string/game_tutorial_rank_explanation_instructions"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/game_tutorial_instructions_txt_size"
+            app:fontName="@string/nexa_font_light" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_tutorial_game_fruit_smash_step_4_arrow_2"
+        android:layout_width="30dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/img_tutorial_game_fruit_smash_step_4_arrow_1"
+        android:layout_toEndOf="@+id/img_tutorial_game_fruit_smash_step_4"
+        android:layout_toRightOf="@+id/img_tutorial_game_fruit_smash_step_4"
+        android:src="@drawable/tutorial_game_fruit_smash_step_4_arrow_2" />
+
+
+    <ImageView
+        android:id="@+id/img_tutorial_game_fruit_smash_step_4"
+        android:layout_width="@dimen/img_tutorial_game_fruit_smash_step_4_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/txt_game_tutorial_fruit_smash_instructions_3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:minHeight="70dp"
+        android:src="@drawable/tutorial_game_fruit_smash_step_4"
+        android:tag="VIEW_TAG_FILL_PARENT" />
+
+</RelativeLayout>

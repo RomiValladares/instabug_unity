@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_login_width">390dp</dimen>
+    <dimen name="button_login_height">44dp</dimen>
+    <dimen name="text_default_size">21sp</dimen>
+    <dimen name="margin_default_top">26dp</dimen>
+    <dimen name="margin_default_top_2">31dp</dimen>
+    <dimen name="margin_default_left">25dp</dimen>
+    <dimen name="margin_default_right">25dp</dimen>
+    <dimen name="margin_default_left_small">15dp</dimen>
+    <dimen name="bottom_bar_height">60dp</dimen>
+    <dimen name="custom_bottom_bar_viewpager_margin">52dp</dimen>
+    <dimen name="credits_header_small_text_size">12sp</dimen>
+    <dimen name="coupon_invited_to_tournament_vertical_margin">58dp</dimen>
+    <dimen name="pager_margin">-4dp</dimen>
+    <dimen name="public_tournament_selected_filter_layout_height">140dp</dimen>
+    <dimen name="tournament_carousel_card_background_height">360dp</dimen>
+    <dimen name="tournament_carousel_card_text_size_3">13sp</dimen>
+    <dimen name="tournaments_carousel_header_img_size">80dp</dimen>
+    <dimen name="public_tournaments_header_text_size">25sp</dimen>
+    <dimen name="tournament_card_coin_margin_bottom">8dp</dimen>
+
+    <dimen name="text_big">26sp</dimen>
+    <dimen name="tutorial_first_app_launch_txt_margin">16dp</dimen>
+    <dimen name="tutorial_first_app_launch_indicator_margin">114dp</dimen>
+    <dimen name="tutorial_first_app_launch_skip_margin">16dp</dimen>
+    <dimen name="activity_first_app_launch_tutorial_vertical_margin">24dp</dimen>
+    <dimen name="text_big_2">23sp</dimen>
+    <dimen name="open_tournament_carousel_card_game_margin">16dp</dimen>
+    <dimen name="friends_list_item_padding">17dp</dimen>
+
+    <dimen name="tournament_carousel_card_padding_top">5dp</dimen>
+
+    <dimen name="game_logo_margin_top">90dp</dimen>
+    <dimen name="game_logo_height">200dp</dimen>
+    <dimen name="game_logo_width">325dp</dimen>
+    <dimen name="game_menu_button_margin_top">15dp</dimen>
+    <dimen name="activity_invited_tournament_game_icon">114dp</dimen>
+</resources>

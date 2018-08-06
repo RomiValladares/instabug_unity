@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.duelit.com.duelit.ui.maintabscreen.MainTabbedActivity">
+    <item
+        android:id="@+id/action_credits"
+        android:icon="@drawable/toolbar_icon_coins_white"
+        android:menuCategory="secondary"
+        android:title="@string/action_credits"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_profile"
+        android:icon="@drawable/toolbar_icon_profile_white"
+        android:menuCategory="secondary"
+        android:title="@string/action_profile"
+        app:showAsAction="always" />
+</menu>

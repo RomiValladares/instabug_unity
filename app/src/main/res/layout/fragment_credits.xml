@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:paddingTop="@dimen/action_bar_height"
+    tools:context="com.duelit.ui.maintabscreen.credits.CreditsFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/credit_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorListBorder" />
+
+    <ProgressBar
+        android:id="@+id/progress_fragment_credit_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:theme="@style/BlueProgress" />
+</RelativeLayout>

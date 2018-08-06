@@ -1,0 +1,146 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--   <item name="android:windowBackground">@drawable/activity_background</item>-->
+        <item name="android:textColorPrimaryInverse">@color/colorPrimary</item>
+        <item name="android:textColorSecondaryInverse">@color/colorPrimary</item>
+        <item name="android:colorBackground">@color/colorPrimaryDark</item>
+        <item name="android:colorForeground">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="DefaultFontStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/colorItemTextPrimary</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="DarkLines" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimaryAlternate</item>
+        <item name="colorAccent">@color/colorPrimaryAlternate</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimaryInverse">@color/colorPrimaryAlternate</item>
+        <item name="android:textColorSecondaryInverse">@color/colorPrimaryAlternate</item>
+        <item name="android:colorBackground">@color/colorPrimaryAlternate</item>
+        <item name="android:colorForeground">@color/colorPrimaryAlternate</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryAlternate</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryAlternate</item>
+    </style>
+
+    <style name="AutoCompleteSpinner" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryAlternate</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryAlternate</item>
+        <item name="colorAccent">@color/colorPrimaryAlternate</item>
+        <item name="android:textColorPrimaryInverse">@color/colorPrimaryAlternate</item>
+        <item name="android:textColorSecondaryInverse">@color/colorPrimaryAlternate</item>
+        <item name="android:colorBackground">@color/colorSecondaryAlternate</item>
+        <item name="android:colorForeground">@color/colorPrimaryAlternate</item>
+        <!--<item name="android:textColorPrimary">#FF1493</item>-->
+        <item name="android:textColorSecondary">@color/colorPrimaryAlternate</item>
+    </style>
+
+
+    <style name="SpinnerDefault" parent="AutoCompleteSpinner">
+        <item name="android:textColor">@color/colorItemTextSecondary</item>
+    </style>
+
+    <style name="AutoCompleteSpinnerWhite" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorSecondary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textColorPrimaryInverse">@color/colorPrimary</item>
+        <item name="android:textColorSecondaryInverse">@color/colorPrimary</item>
+        <item name="android:colorBackground">@color/colorSecondary</item>
+        <item name="android:colorForeground">@color/colorSecondary</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/colorPrimary</item>
+    </style>
+
+    <style name="BlueProgress" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimaryInverse">@color/colorPrimaryDark</item>
+        <item name="android:textColorSecondaryInverse">@color/colorPrimaryDark</item>
+        <item name="android:colorBackground">@color/colorPrimaryDark</item>
+        <item name="android:colorForeground">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="WhiteProgress" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textColorPrimaryInverse">@color/colorPrimary</item>
+        <item name="android:textColorSecondaryInverse">@color/colorPrimary</item>
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="android:colorForeground">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="GreenProgress" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAccentSecondary</item>
+        <item name="colorPrimaryDark">@color/colorAccentSecondary</item>
+        <item name="colorAccent">@color/colorAccentSecondary</item>
+        <item name="android:textColorPrimaryInverse">@color/colorAccentSecondary</item>
+        <item name="android:textColorSecondaryInverse">@color/colorAccentSecondary</item>
+        <item name="android:colorBackground">@color/colorAccentSecondary</item>
+        <item name="android:colorForeground">@color/colorAccentSecondary</item>
+        <item name="android:textColorPrimary">@color/colorAccentSecondary</item>
+        <item name="android:textColorSecondary">@color/colorAccentSecondary</item>
+    </style>
+
+    <style name="GamePenalty" parent="AppTheme">
+        <item name="colorPrimary">#24ce6c</item>
+        <item name="android:textColorPrimary">@color/colorItemTextPrimary</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="TestColors" parent="Theme.AppCompat">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0000FF</item>
+        <item name="colorPrimaryDark">#FF0</item>
+        <item name="colorAccent">#0F0</item>
+        <item name="android:textColorPrimaryInverse">#9932CC</item>
+        <item name="android:textColorSecondaryInverse">#FF00FF</item>
+        <item name="android:colorBackground">#808000</item>
+        <item name="android:colorForeground">#2F4F4F</item>
+        <item name="android:textColorPrimary">#FF1493</item>
+        <item name="android:textColorSecondary">#D2691E</item>
+    </style>
+
+    <style name="TournamentWaitingTimerTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/colorPrimaryAlternate</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+</resources>

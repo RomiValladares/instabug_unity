@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "762902952654",
+    "project_id": "duelit-analytics"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762902952654:android:8098bde5577adebe",
+        "android_client_info": {
+          "package_name": "com.duelit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSFDS2wL-SIIyCmSfPSQ6u7tDvJck3H4I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-93384357-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

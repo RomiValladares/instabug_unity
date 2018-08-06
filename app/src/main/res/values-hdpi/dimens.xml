@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_login_width">310dp</dimen>
+    <dimen name="button_login_height">44dp</dimen>
+    <dimen name="text_default_size">14sp</dimen>
+    <dimen name="margin_default_top">26dp</dimen>
+    <dimen name="margin_default_top_small">17dp</dimen>
+    <dimen name="margin_default_top_small_2">6dp</dimen>
+    <dimen name="margin_default_top_small_3">10dp</dimen>
+    <dimen name="margin_default_bottom">30dp</dimen>
+    <dimen name="margin_default_top_2">31dp</dimen>
+    <dimen name="margin_default_left">25dp</dimen>
+    <dimen name="margin_default_right">25dp</dimen>
+    <dimen name="margin_default_left_small">15dp</dimen>
+    <dimen name="margin_default_right_small">15dp</dimen>
+    <dimen name="text_big">24sp</dimen>
+    <dimen name="custom_bottom_bar_viewpager_margin">50dp</dimen>
+
+    <dimen name="tutorial_first_app_launch_skip_margin">2dp</dimen>
+    <dimen name="tutorial_first_app_launch_txt_margin">12dp</dimen>
+    <dimen name="tutorial_first_app_launch_img_width">270dp</dimen>
+    <dimen name="tutorial_first_app_launch_img_height">230dp</dimen>
+    <dimen name="tutorial_first_app_launch_indicator_margin">115dp</dimen>
+    <dimen name="text_big_2">19sp</dimen>
+
+    <dimen name="open_tournament_carousel_card_game_margin">10dp</dimen>
+
+    <dimen name="friends_list_item_padding">10dp</dimen>
+
+    <dimen name="tournament_carousel_card_padding_top">2dp</dimen>
+    <dimen name="game_logo_margin_top">75dp</dimen>
+    <dimen name="game_logo_height">180dp</dimen>
+    <dimen name="game_logo_width">305dp</dimen>
+    <dimen name="game_menu_button_margin_top">10dp</dimen>
+    <dimen name="activity_invited_tournament_game_icon">90dp</dimen>
+</resources>

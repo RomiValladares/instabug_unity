@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffff</color>
+    <color name="colorPrimaryDark">#2a68c4</color>
+    <color name="colorAccent">#ffff</color>
+    <color name="colorBlueTransparent">#803e4ca7</color>
+    <color name="colorSecondaryDark">#5f6465</color>
+    <color name="colorSecondary">#d8d8d8</color>
+    <color name="textColorSecondary">#4590ff</color>
+    <color name="openTournamentLabelColor">#00E39B</color>
+    <color name="publicTournamentLabelColor">#00E3D7</color>
+    <color name="statusBarColor">#2a68c4</color>
+    <color name="navigationBarColor">#CC000000</color>
+    <color name="transparentNavigationBarColor">#33000000</color>
+    <color name="colorAccentSecondary">#00e3d7</color>
+    <color name="colorListBorder">#dedede</color>
+    <color name="colorItemTextSecondary">#808993</color>
+    <color name="colorItemTextPrimary">#464f5c</color>
+    <color name="colorTextNegativeCredits">#adadad</color>
+    <color name="colorListOddPosition">#f9f9f9</color>
+    <color name="colorGrayScreen">#f9f9f9</color>
+    <color name="colorPromoCode">#4490ff</color>
+    <color name="colorPromoFacebookFriends">#3f4da7</color>
+    <color name="colorTabText">#4490ff</color>
+    <color name="colorBorderTopTab">#ccc</color>
+    <color name="colorDrawerBackground">#f2ffffff</color>
+    <color name="colorBlackText">#302d08</color>
+
+    <color name="colorLightGray">#F8F8F8</color>
+
+    <color name="colorUnselectedTabText">#AAAAAA</color>
+    <color name="colorSelectedTabText">#4093F7</color>
+
+    <color name="colorNoImageBackground">#00e3d7</color>
+
+    <color name="colorGamePenaltyPrimary">#24ce6c</color>
+    <color name="colorGamePenaltySecondary">#00e39b</color>
+    <color name="colorGamePenaltyText">#464f5c</color>
+
+    <color name="colorPrimaryAlternate">#979797</color>
+    <color name="colorSecondaryAlternate">#f3f3f3</color>
+
+    <color name="colorOrangeWarning">#DD8E0C</color>
+    <color name="colorTournamentsHeader">#FFEA03</color>
+
+    <color name="testColorOne">#FFEBCD</color>
+    <color name="testColorTwo">#8A2BE2</color>
+    <color name="testColorThree">#FF7F50</color>
+    <color name="colorAlert">#FE3824</color>
+    <color name="colorTransparentBlue">#CC4092f7</color>
+
+    <color name="colorTransparentTutorial">#b0000000</color>
+    <color name="colorGameMenuToolbar">#2e000000</color>
+
+</resources>
